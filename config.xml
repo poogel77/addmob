@@ -7,7 +7,8 @@
   <author email="info@appfeel.com" href="https://github.com/appfeel/admob-google-cordova">AppFeel</author>
 
   
-  <gap:plugin name="com.admob.google" source="plugins.cordova.io" version="2.0.14"/>
+ <plugin name="cordova-admob" spec="4.1.6" />
+
   
   <icon src="res/icons/appFeel-512.png" />
 

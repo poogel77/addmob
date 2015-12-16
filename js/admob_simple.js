@@ -1,8 +1,8 @@
 var admobid = {};
 if( /(android)/i.test(navigator.userAgent) ) { 
     admobid = { // for Android
-        banner: 'ca-app-pub-6869992474017983/9375997553',
-        interstitial: 'ca-app-pub-6869992474017983/1657046752'
+        banner: 'ca-app-pub-5391292239420673/2299772940',
+        interstitial: 'ca-app-pub-5391292239420673/5613166147'
     };
 } else if(/(ipod|iphone|ipad)/i.test(navigator.userAgent)) {
     admobid = { // for iOS
@@ -27,15 +27,10 @@ function initApp() {
 
     AdMob.createBanner( {
         adId: admobid.banner, 
-        isTesting: false,
+        isTesting: true,
         overlap: false, 
         offsetTopBar: false, 
         position: AdMob.AD_POSITION.BOTTOM_CENTER,
         bgColor: 'black'
-    } );
-    
-    AdMob.prepareInterstitial({
-        adId: admobid.interstitial,
-        autoShow: true
-    });
+    } ); 
 }

@@ -49,8 +49,8 @@ var app = {
     var isAndroid = (/(android)/i.test(navigator.userAgent));
     var adPublisherIds = {
       ios : {
-        banner: 'ca-app-pub-5391292239420673/2299772940',
-        interstitial: 'ca-app-pub-5391292239420673/5613166147'
+        banner: 'ca-app-pub-6869992474017983/4806197152',
+        interstitial: 'ca-app-pub-6869992474017983/7563979554'
       },
       android : {
         banner: 'ca-app-pub-5391292239420673/2299772940',

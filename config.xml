@@ -10,9 +10,8 @@
   <preference name="LogLevel" value="VERBOSE"/>
   <preference name="debuggable" value="true"/>
   
- <gap:plugin name="cordova-plugin-admob" source="npm" />
- 
-  <framework src="com.google.android.gms:play-services-ads:+" />
+  <preference name="android-build-tool" value="gradle" /> 
+    <gap:plugin name="cordova-plugin-admobpro" source="npm" />
   <icon src="res/icons/appFeel-512.png" />
 
   <!-- iOS 7.0+ -->
